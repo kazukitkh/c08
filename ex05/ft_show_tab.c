@@ -11,7 +11,7 @@ void	ft_putstr(char *c)
 	int	j;
 
 	j = 0;
-	while (c + j++);
+	while (c + j++)
 		ft_putchar(c[j - 1]);
 	ft_putchar('\n');
 }
@@ -39,8 +39,8 @@ void	ft_putnbr(int nb)
 
 void	ft_show_tab(struct s_stock_str *par)
 {
-	t_stock_str *tmp;
-	int	i;
+	t_stock_str	*tmp;
+	int			i;
 
 	i = 0;
 	while (par[i].size)
